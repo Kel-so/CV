@@ -47,7 +47,7 @@ h1, h2 {
 .profile-pic {
     width: 80px;
     height: 80px;
-    border-radius: 8%
+    border-radius: 8%;
     float: left;
     margin-right: 15px;
     border: 2px solid #ddd;
@@ -71,7 +71,7 @@ h1, h2 {
 /* Links de contato com efeito */
 .contact-link {
     color: #4CAF50;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .contact-link:hover {
