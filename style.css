@@ -1,11 +1,9 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo para o body */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f5;
@@ -15,12 +13,10 @@ body {
     padding: 20px;
 }
 
-/* Fonte diferente para títulos */
 h1, h2 {
     font-family: 'Georgia', serif;
 }
 
-/* Container principal */
 .container {
     width: 60%;
     max-width: 800px;
@@ -30,20 +26,15 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Cabeçalho */
 #header {
     text-align: left;
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px;}
 
-/* Nome com destaque */
 .name {
     font-size: 1.8em;
     font-weight: bold;
     color: #333;
 }
-
-/* Foto de perfil menor */
 .profile-pic {
     width: 80px;
     height: 80px;
@@ -53,7 +44,6 @@ h1, h2 {
     border: 2px solid #ddd;
 }
 
-/* Ícones de contato */
 .icon {
     width: 16px;
     height: 16px;
@@ -61,14 +51,12 @@ h1, h2 {
     margin-right: 5px;
 }
 
-/* Informações de contato */
 .contact-info {
     font-size: 0.9em;
     color: #666;
     margin-top: 10px;
 }
 
-/* Links de contato com efeito */
 .contact-link {
     color: #4CAF50;
     text-decoration: underline;
@@ -78,7 +66,6 @@ h1, h2 {
     color: #388E3C;
 }
 
-/* Seções */
 section {
     margin-bottom: 20px;
     padding: 10px;
@@ -86,7 +73,6 @@ section {
     background-color: #fafafa;
 }
 
-/* Títulos de seções */
 h2 {
     font-size: 1.2em;
     color: #4CAF50;
@@ -95,13 +81,11 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* Listas */
 ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
-/* Rodapé */
 footer {
     text-align: center;
     font-size: 0.8em;
@@ -109,7 +93,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Estilo para links externos */
 a[target="_blank"] {
     font-style: italic;
 }
